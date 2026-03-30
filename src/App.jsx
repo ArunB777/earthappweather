@@ -9,7 +9,7 @@ export default function App() {
   const [selectedLocation, setSelectedLocation] = useState(null);
   const [predictions, setPredictions] = useState(null);
   const [loading, setLoading] = useState(false);
-  const API_KEY = 'YOUR_OPENWEATHERMAP_API_KEY'; // Replace with your API key
+  const API_KEY = 'ccab2658a10ce7278aadd2f8edfbc576';
 
   useEffect(() => {
     if (selectedLocation) {
